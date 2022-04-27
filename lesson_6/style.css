@@ -1,0 +1,868 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  main {
+    display: block;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  a {
+    background-color: transparent;
+  }
+  abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+  }
+  b,strong {
+    font-weight: bolder;
+  }
+  code,kbd,samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  img {
+    border-style: none;
+  }
+  button,input,optgroup,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  button,input {
+    overflow: visible;
+  }
+  button,select {
+    text-transform: none;
+  }
+  button,[type="button"],[type="reset"],[type="submit"] {
+    -webkit-appearance: button;
+  }
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  textarea {
+    overflow: auto;
+  }
+  [type="checkbox"],[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  [type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
+  details {
+    display: block;
+  }
+  summary {
+    display: list-item;
+  }
+  template {
+    display: none;
+  }
+  [hidden] {
+    display: none;
+  }
+
+  /* reset style end */
+    nav ul li a{text-decoration: none;}
+
+    li{list-style-type: none;}
+
+  .container{
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .container-features{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .container-about-us{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .container-download{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .container-testimonial{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .header-logo{
+    float: left;
+    width: 44px;
+    height: 43px;
+    margin-top: 30px;
+  }
+
+  .header-menu{
+    float: left;
+  }
+
+  .header-menu li{
+    float: left;
+  }
+
+  .header-button{
+    float: right;
+  }
+
+  .w50{
+    width: 50%;
+  }
+
+  .w33{
+    width: 33%;
+  }
+
+  .w25{
+    width: 25%;
+  }
+
+  .fl{
+    float: left;
+  }
+
+  .fr{
+    float: right;
+  }
+
+  .fl-clear{
+    float: left;
+    clear: left;
+  }
+
+  h1{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 58px;
+    color: #150C01; 
+    
+    width: 555px;
+    height: 161px;
+    margin: 150px 0px 40px 0px;
+  }
+
+  .title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+ 
+    color: #DC780B;  
+    opacity: 0.7;  
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;    
+  }
+
+  h3{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    color: #150C01; 
+  }
+
+.header-list-home{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+
+    padding: 25px 20px 25px 0px;
+    display: block;
+}
+
+.header-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+    opacity: 0.6;
+
+    padding: 25px 20px;
+    display: block;
+}
+
+.header-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border: none;
+
+    width: 155px;
+    height: 46px;
+    margin: 30px 0px 0px 0px;
+}
+
+.header-style{filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+.main-welcome-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+
+    width: 555px;
+    height: 43px;
+    margin-bottom: 45px;
+}
+
+.welcome-section-button-order{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border: none;
+
+    width: 158px;
+    height: 60px;
+    margin-right: 25px;
+}
+.welcome-section-button-food{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(220, 120, 11, 0.1);
+
+    width: 170px;
+    height: 60px;
+}
+
+.welcome-section-image{
+    width: 100%;
+}
+
+.title-features{
+  text-align: center;
+  line-height: 19px;
+  margin: 170px 0px 0px 0px;
+}
+
+.subtitle-features{
+  line-height: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0px 45px 0px;
+}
+
+.features-food{
+  width: 140px;
+  height: 24px;
+  margin: 40px 250px 20px 80px;
+}
+
+.features-delivery{
+  width: 153px;
+  height: 24px;
+  margin: 40px 250px 20px 105px;
+}
+
+.features-taste{
+  width: 131px;
+  height: 24px;
+  margin: 40px 120px 20px 140px
+}
+
+h4{
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+}
+
+.features-text1{
+  margin-right: 70px;
+  margin-left: 10px;
+}
+
+.features-text2{
+  margin-right: 70px;
+  margin-left: 35px;
+}
+
+.features-text3{
+  margin-right: 0px;
+  margin-left: 60px;
+}
+
+.center{
+  text-align: center;
+}
+
+.features-section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    text-align: center;
+    width: 300px;
+    height: 68px;
+}
+
+/* about us section*/
+.girl-image{
+  width: 705px;
+}
+
+.title-about{
+  display: flex;
+  align-items: center;
+  margin-top: 200px ;
+  margin-left: 70px;
+}
+
+.subtitle-about{
+  width: 475px;
+  height: 112px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.about-text{
+  width: 475px;
+  height: 76px;
+  margin-left: 70px;
+}
+
+.about-us-section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.about-us-section-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border: none;
+    width: 142px;
+    height: 42px;
+    margin-left: 70px;
+}
+
+/* menu section*/
+.menu-section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+}
+
+.title-menu{
+  text-align: center;
+}
+
+.subtitle-menu{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.menu-text{
+  width: 748px;
+  height: 64px;
+  text-align: center;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.brd{
+  box-sizing: border-box;
+  border-radius: 75px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  height: 440px; 
+  width: 365px;
+}
+
+.menu-block{
+  margin-left: 15px;
+}
+
+.mg{
+  margin-left: 25px;
+}
+
+.m25{
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.price{
+  margin-top: 15px;
+  margin-right: 25px;
+}
+
+.length{
+  width: 310px;
+  height: 38px;
+  margin-left: 25px;
+  margin-top: 0px;
+  opacity: 0.7;
+}
+
+.menu-section-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
+    background-color: #FFFFFF; 
+    width: 142px;
+    height: 42px;
+    
+    border: 1px solid rgba(220, 120, 11, 0.1);
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.menu-button{
+  width: 36px;
+  height: 34px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.stars{
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+/* app download section*/
+.title-download{
+  line-height: 24px;
+  margin-top: 300px;
+  margin-bottom: 5px;
+}
+
+.subtitle-download{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.app-download-section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    width: 555px;
+    height: 66px;
+    margin-bottom: 40px;
+}
+
+.app-download-section-button-apple{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #150C01;
+    border-color: #150C01;
+    border-radius: 5px;
+    width: 163px;
+    height: 48px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.app-download-section-button-google{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #150C01;
+
+    border: 1.5px solid #150C01;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 179px;
+    height: 48px;
+    text-align: center;
+}
+
+.app-download-section-image{
+    width: 323.14px;
+    height: 651px;
+    margin-left: 150px;
+    margin-top: 120px;
+} 
+
+/* testimonial section*/
+.title-testimonial{
+    text-align: center;
+    margin-top: 135px;
+    margin-bottom: 5px;
+}
+
+.subtitle-testimonial{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.testimonial-section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    text-align: center;
+    width: 750px;
+    height: 62px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.testimonial-image{
+  margin-left: 290px;
+  margin-bottom: 0px;
+}
+
+.testimonial-section-comment{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    width: 506px;
+    height: 59px;
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-right: 135px;
+}
+
+.testimonial-section-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+
+    margin-left: 340px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.scroll-left{
+  margin-top: 175px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.scroll-right{
+  margin-top: 30px;
+}
+
+.stars-comment{
+  margin-left: 375px;
+  margin-top: 10px;
+}
+
+h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+    text-transform: uppercase;
+    width: 93px;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+/* contact section*/
+.title-contact{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.subtitle-contact{
+  width: 749px;
+  height: 61px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.contact-section-input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+    border: none;
+    width: 560px;
+    height: 75px;
+    margin-left: 30px;
+}
+
+.contact-section-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border: none;
+
+    width: 156px;
+    height: 75px;  
+}
+
+.background-white{
+  background-color:#FFFFFF;
+  width: 750px;
+  height: 75px;
+  margin-left: 305px;
+  margin-bottom: 115px;
+}
+
+.background-pink{
+  background-color: #fbf1e7;
+}
+
+.container-contact{
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* footer section*/
+footer{background: #252525;}
+
+.footer-image{
+  margin-top: 135px;
+  margin-bottom: 20px;
+}
+
+.footer-contact{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.mb{
+  margin-bottom: 130px;
+  
+}
+
+.m140{
+  margin-top: 135px;
+  margin-bottom: 20px;
+}
+
+a.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h5{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-left: -40px;
+    padding: 8px 10px 8px 0px;
+    display: block;
+}
+
+.icons{
+  margin-right: 5px;
+}
+
+article h4{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    align-items: center;
+    color: #150C01;
+}
+
+article span{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #150C01;
+}
+
+article p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150C01;
+}
+
+article button{
+    background-color: #FFFFFF;
+    border: none;
+}
